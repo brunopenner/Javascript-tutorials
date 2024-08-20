@@ -38,3 +38,15 @@ const tasBtn = document.querySelector('#tas');
 //  and you can also pass more parameters, such as for the function to run only once
 tasBtn.addEventListener('click', twist);
 tasBtn.addEventListener('click', shout);
+
+// ////////////////////////////////////
+helloBtn = document.getElementById("hello");
+byeBtn = document.getElementById("goodbye");
+
+helloBtn.addEventListener('click', function() {
+    console.log("hello");
+});
+
+byeBtn.addEventListener('click', function() {
+    console.log("Goodbye");
+})

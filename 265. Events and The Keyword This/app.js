@@ -5,7 +5,9 @@ function generateRGB () {
     const g = Math.floor((Math.random()*255)+1);
     const b = Math.floor((Math.random()*255)+1);
 
-    const rgb = "RGB(" + r + ", " + g + ", "  + b + ")";
+    // const rgb = "RGB(" + r + ", " + g + ", "  + b + ")";
+    // Bellow is a better way to write the above expression
+    const rgb = `RGB(${r}, ${g}, ${b})`;
     return rgb;
 }
 

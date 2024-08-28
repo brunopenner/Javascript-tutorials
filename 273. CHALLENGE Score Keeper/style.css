@@ -1,0 +1,44 @@
+#wrapper {
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px black;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 0 ;
+}
+
+.game-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.controls {
+    display: flex;
+}
+
+.controls button {
+    width: 33.3%;
+    padding: 10px 15px;
+    color: white;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.37);
+}
+
+#p1Plus {
+    background-color: #00cba8;
+}
+
+#p2Plus {
+    background-color: #298ed2;
+}
+
+#reset {
+    background-color: #ee3e5d;
+}

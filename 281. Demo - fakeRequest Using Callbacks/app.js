@@ -24,6 +24,7 @@ const fakeRequestPromise = (url) => {
 }
 
 
+// #281. Demo: fakeRequest Using Callbacks
 // fakeRequestCallback('books.com/page1',
 //     function (response) {
 //         console.log("IT WORKED!!!!")
@@ -49,11 +50,7 @@ const fakeRequestPromise = (url) => {
 //     })
 
 
-
-
-
-
-
+// #282. Demo: fakeRequest Using Promises
 // fakeRequestPromise('yelp.com/api/coffee/page1')
 //     .then(() => {
 //         console.log("IT WORKED!!!!!! (page1)")
@@ -77,6 +74,7 @@ const fakeRequestPromise = (url) => {
 //     })
 
 
+// #283. The Magic Of Promises
 // THE CLEANEST OPTION WITH THEN/CATCH
 // RETURN A PROMISE FROM .THEN() CALLBACK SO WE CAN CHAIN!
 fakeRequestPromise('yelp.com/api/coffee/page1')

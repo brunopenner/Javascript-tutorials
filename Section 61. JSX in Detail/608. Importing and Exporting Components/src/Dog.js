@@ -1,3 +1,4 @@
 export default function Dog () {
-  return <p>WOOF!!!</p>;
+  const pet = "Elton";
+  return <p> {pet} WOOF!!!</p>;
 }

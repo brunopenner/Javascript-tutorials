@@ -1,13 +1,14 @@
 import React from 'react';
-import Greeter from './Greeter.js';
-import Dog from './Dog.js';
-import LoginForm from './LoginForm.js'
-import Die from './Die.js'
+import LoginForm from "./LoginForm"
+import Dog from "./Dog"
+import Die from "./Die"
+import DiceRoll from "./DiceRoll"
 
 export function App(props) {
   return (
     <div className='App'>
-      <Die/>
+      <DiceRoll/>
+      <DiceRoll/>
     </div>
   );
 }
